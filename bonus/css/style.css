@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+.playercard{
+    width: 10rem; 
+    margin-top: 15rem; 
+    margin-right: 2rem;
+    background-color: transparent;
+}
+
+.centercard{
+    width: 18rem;
+    background-color: transparent;
+}
+
+.centercard > img {
+    width: 10rem; 
+    margin-left: 4rem;
+}
+
+.aicard{
+    width: 10rem; 
+    margin-top: 15rem; 
+    margin-left: 2rem;
+    background-color: transparent;
+}
+
+#result{
+    background-size: contain;
+    background-position: center;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 1s; 
+}
+
+#result.fade {
+    opacity: 1;
+}
+
+.win{
+    background-image: url(../img/win.gif);
+    color: black;
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.lose{
+    background-image: url(../img/lost.gif);
+    opacity: 1;
+    transition: opacity 3s; 
+}
+
+.spare{
+    background-image: url(../img/spare.gif);
+    opacity: 1;
+    transition: opacity 3s; 
+}
